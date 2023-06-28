@@ -1,12 +1,14 @@
 .flutuante {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flutuante img {
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .flutuante:hover img {
-  transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -10px, 0);
 }
