@@ -1,1 +1,12 @@
+.flutuante {
+  position: relative;
+  display: inline-block;
+}
 
+.flutuante img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.flutuante:hover img {
+  transform: translate3d(0, -5px, 0);
+}
